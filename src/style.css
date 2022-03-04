@@ -1,0 +1,93 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    outline: none;
+}
+.screen{
+    max-width: 100%;
+    display: flex;
+}
+.size-1{
+    width: 20%;
+}
+.size-2{
+    width: 30%;
+}
+.size-3{
+    width: 50%;
+}
+.header{
+    background-color: #828282;
+    color: #EFEFEF;
+    font-weight: 500;
+    padding: 5px 20px;
+}
+.layout{
+    height: 70vh;
+}
+[class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin: 0 !important;
+}
+.asset{
+    background-color: #EFEFEF;
+    border-radius: 10px;
+    width: 40%;
+    position: relative;
+    margin: 5%;
+    float: left;
+}
+.asset:before{
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+.asset img{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    object-fit: contain;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.bottom_assets{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 30vh;
+}
+.added_asset{
+    height: 100px;
+    width: 100px;
+    float: left;
+    background-color: #EFEFEF;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size:x-small;
+}
+.added_asset img{
+    height: 80%;
+    width: 80%;
+    background-color: transparent;
+}
+.properties{
+    padding: 10px;
+    background-color: white;
+}
